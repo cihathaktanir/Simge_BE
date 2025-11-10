@@ -162,7 +162,7 @@ public class ProductServiceImpl implements ProductService {
     @Transactional(readOnly = true)
     public ProductModelDTO getProductById(String id) {
         Long recno = Long.valueOf(id);
-        Integer defaultWarehouseNumber = 0;
+        Integer defaultWarehouseNumber = 1;
 
         Page<ProductDTO> productsPage = productRepository.findProductsWithPriceByWarehouseAndOptionalRecnoIn(
                 defaultWarehouseNumber,

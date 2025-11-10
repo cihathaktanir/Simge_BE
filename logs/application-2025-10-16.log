@@ -1,0 +1,32 @@
+2025-10-16 08:17:37 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2d4h39m27s484ms370µs800ns).
+2025-10-16 08:17:37 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-16 08:17:37 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-16 08:17:37 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-16 08:17:37 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-16 08:17:37 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-16 08:17:37 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-16 08:17:37 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-16 08:17:37 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-16 08:17:38 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-16 08:17:38 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-16 08:18:06 [http-nio-8080-exec-6] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-16 08:18:06 [http-nio-8080-exec-6] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: null
+2025-10-16 08:18:06 [http-nio-8080-exec-6] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-16 08:18:06 [http-nio-8080-exec-2] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-16 08:18:06 [http-nio-8080-exec-3] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, ids=1}
+2025-10-16 08:18:06 [http-nio-8080-exec-3] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: null
+2025-10-16 08:18:06 [http-nio-8080-exec-3] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-16 08:18:06 [http-nio-8080-exec-7] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, ids=3,8,11,13,14}
+2025-10-16 08:18:06 [http-nio-8080-exec-1] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, ids=3,8,11,13,14}
+2025-10-16 08:18:09 [http-nio-8080-exec-4] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-16 08:18:09 [http-nio-8080-exec-5] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-16 08:18:09 [http-nio-8080-exec-9] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, ids=1}
+2025-10-16 08:18:10 [http-nio-8080-exec-10] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-16 08:18:10 [http-nio-8080-exec-6] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-16 08:18:10 [http-nio-8080-exec-3] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-16 08:18:10 [http-nio-8080-exec-2] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-16 08:18:10 [http-nio-8080-exec-8] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, ids=1}
+2025-10-16 08:18:10 [http-nio-8080-exec-7] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-16 08:18:10 [http-nio-8080-exec-1] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, ids=1}
+2025-10-16 08:18:10 [http-nio-8080-exec-4] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-16 08:18:10 [http-nio-8080-exec-5] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, ids=1}

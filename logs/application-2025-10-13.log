@@ -1,0 +1,169 @@
+2025-10-13 21:39:58 [main] INFO  c.simge.backend.BackendApplication - Starting BackendApplication using Java 17.0.14 with PID 12372 (C:\Users\CHT\Desktop\Simge Online Selling\Simge_BE\target\classes started by CHT in C:\Users\CHT\Desktop\Simge Online Selling\Simge_BE)
+2025-10-13 21:39:59 [main] INFO  c.simge.backend.BackendApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-13 21:40:00 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-13 21:40:01 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 133 ms. Found 7 JPA repository interfaces.
+2025-10-13 21:40:02 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-10-13 21:40:02 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-10-13 21:40:02 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-13 21:40:02 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-10-13 21:40:02 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-13 21:40:02 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3498 ms
+2025-10-13 21:40:03 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-13 21:40:03 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-10-13 21:40:03 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-13 21:40:03 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-13 21:40:04 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-13 21:40:04 [main] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 21:40:04 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 936b53a1-4178-4678-a84b-f59cf584c755
+2025-10-13 21:40:04 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-13 21:40:04 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 21:40:04 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-13 21:40:04 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-13 21:40:04 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 21:40:04 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 21:40:05 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 21:40:05 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 21:40:05 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 21:40:05 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 21:40:05 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 21:40:05 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 21:40:06 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-13 21:40:06 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-13 21:40:07 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-10-13 21:40:11 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-13 21:40:11 [main] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-10-13 21:40:13 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-10-13 21:40:13 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-10-13 21:40:13 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-10-13 21:40:13 [main] INFO  c.simge.backend.BackendApplication - Started BackendApplication in 15.179 seconds (process running for 15.803)
+2025-10-13 21:59:54 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-13 21:59:54 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-13 21:59:54 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2025-10-13 21:59:54 [http-nio-8080-exec-2] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 21:59:54 [http-nio-8080-exec-3] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 21:59:54 [http-nio-8080-exec-6] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, ids=1}
+2025-10-13 21:59:55 [http-nio-8080-exec-6] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: null
+2025-10-13 21:59:55 [http-nio-8080-exec-3] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: null
+2025-10-13 21:59:55 [http-nio-8080-exec-3] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 21:59:55 [http-nio-8080-exec-6] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 21:59:55 [http-nio-8080-exec-1] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, ids=3,8,11,13,14}
+2025-10-13 21:59:55 [http-nio-8080-exec-4] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, ids=3,8,11,13,14}
+2025-10-13 21:59:58 [http-nio-8080-exec-5] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 21:59:58 [http-nio-8080-exec-9] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 21:59:58 [http-nio-8080-exec-8] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 21:59:58 [http-nio-8080-exec-10] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 21:59:58 [http-nio-8080-exec-2] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 21:59:58 [http-nio-8080-exec-6] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 21:59:58 [http-nio-8080-exec-3] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 21:59:58 [http-nio-8080-exec-4] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, ids=1}
+2025-10-13 21:59:58 [http-nio-8080-exec-1] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 21:59:58 [http-nio-8080-exec-7] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, ids=1}
+2025-10-13 21:59:58 [http-nio-8080-exec-5] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 21:59:59 [http-nio-8080-exec-8] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 21:59:59 [http-nio-8080-exec-9] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, ids=1}
+2025-10-13 21:59:59 [http-nio-8080-exec-10] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, ids=1}
+2025-10-13 21:59:59 [http-nio-8080-exec-2] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 21:59:59 [http-nio-8080-exec-6] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, ids=1}
+2025-10-13 21:59:59 [http-nio-8080-exec-6] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: null
+2025-10-13 21:59:59 [http-nio-8080-exec-6] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 21:59:59 [http-nio-8080-exec-2] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: null
+2025-10-13 21:59:59 [http-nio-8080-exec-2] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 22:00:01 [http-nio-8080-exec-3] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 22:00:01 [http-nio-8080-exec-4] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 22:00:01 [http-nio-8080-exec-1] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, ids=1}
+2025-10-13 22:00:01 [http-nio-8080-exec-7] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 22:00:01 [http-nio-8080-exec-5] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 22:00:01 [http-nio-8080-exec-9] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, ids=1}
+2025-10-13 22:00:01 [http-nio-8080-exec-10] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 22:00:01 [http-nio-8080-exec-6] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, ids=1}
+2025-10-13 22:00:02 [http-nio-8080-exec-2] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 22:00:02 [http-nio-8080-exec-8] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 22:00:02 [http-nio-8080-exec-3] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, ids=1}
+2025-10-13 22:00:02 [http-nio-8080-exec-1] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, ids=3,8,11,13,14}
+2025-10-13 22:00:02 [http-nio-8080-exec-7] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, ids=3,8,11,13,14}
+2025-10-13 22:00:02 [http-nio-8080-exec-5] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 22:00:02 [http-nio-8080-exec-9] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 22:00:02 [http-nio-8080-exec-10] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 22:00:02 [http-nio-8080-exec-6] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 22:00:02 [http-nio-8080-exec-2] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, ids=1}
+2025-10-13 22:00:02 [http-nio-8080-exec-3] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 22:00:02 [http-nio-8080-exec-8] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, ids=1}
+2025-10-13 22:00:03 [http-nio-8080-exec-1] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 22:00:03 [http-nio-8080-exec-4] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, ids=1}
+2025-10-13 22:00:04 [http-nio-8080-exec-7] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 22:00:04 [http-nio-8080-exec-5] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 22:00:04 [http-nio-8080-exec-9] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, ids=1}
+2025-10-13 22:00:04 [http-nio-8080-exec-10] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 22:00:04 [http-nio-8080-exec-6] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 22:00:04 [http-nio-8080-exec-2] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, ids=1}
+2025-10-13 22:00:05 [http-nio-8080-exec-3] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 22:00:05 [http-nio-8080-exec-8] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 22:00:05 [http-nio-8080-exec-1] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, ids=1}
+2025-10-13 22:00:05 [http-nio-8080-exec-4] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 22:00:05 [http-nio-8080-exec-7] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 22:00:05 [http-nio-8080-exec-5] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, ids=1}
+2025-10-13 22:00:05 [http-nio-8080-exec-9] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 22:00:06 [http-nio-8080-exec-10] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 22:00:06 [http-nio-8080-exec-6] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, ids=1}
+2025-10-13 22:00:06 [http-nio-8080-exec-2] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 22:00:06 [http-nio-8080-exec-3] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 22:00:06 [http-nio-8080-exec-8] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, ids=1}
+2025-10-13 22:00:07 [http-nio-8080-exec-1] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 22:00:07 [http-nio-8080-exec-4] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 22:00:07 [http-nio-8080-exec-7] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, ids=1}
+2025-10-13 22:00:07 [http-nio-8080-exec-5] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 22:00:07 [http-nio-8080-exec-9] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 22:00:07 [http-nio-8080-exec-10] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, ids=1}
+2025-10-13 22:00:08 [http-nio-8080-exec-6] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 22:00:08 [http-nio-8080-exec-2] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 22:00:08 [http-nio-8080-exec-3] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, ids=1}
+2025-10-13 22:00:46 [http-nio-8080-exec-8] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 22:00:46 [http-nio-8080-exec-1] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, paginate=4}
+2025-10-13 22:00:46 [http-nio-8080-exec-4] INFO  c.s.b.controller.CategoryController - Received Params: {status=1, ids=1}
+2025-10-13 22:09:22 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 22:09:23 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 22:09:24 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 22:09:32 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 22:09:50 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 22:09:50 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 22:09:55 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 22:09:57 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 22:09:59 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 22:10:04 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 22:38:47 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 22:38:49 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 22:38:51 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 22:39:06 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 22:39:21 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 22:39:26 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 22:39:26 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 22:39:31 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 22:39:53 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 22:40:04 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 23:08:06 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 23:08:19 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 23:08:40 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 23:08:44 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 23:09:08 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 23:09:10 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 23:09:21 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 23:09:26 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 23:09:38 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 23:09:44 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 23:37:44 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 23:38:09 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 23:38:15 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 23:38:15 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 23:38:35 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 23:38:46 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 23:38:51 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 23:38:59 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 23:39:01 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2025-10-13 23:39:29 [HikariPool-1 connection adder] WARN  c.m.s.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
